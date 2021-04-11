@@ -1,4 +1,5 @@
 function clicked(){
+    total = 0;
     var x = document.getElementsByClassName("total");
     for(var i = 0; i < x.length; i ++)
     {

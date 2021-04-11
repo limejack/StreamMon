@@ -21,7 +21,7 @@ function reset() {
     
     document.getElementById("f1").parentNode.style.backgroundColor = "#90C290";
     document.getElementById("f2").parentNode.style.backgroundColor = "#90C290";
-    document.getElementById("bug").setattribute("src", "");
+    document.getElementById("bug").setAttribute("src", "");
 }
 
 reset();
@@ -97,7 +97,7 @@ function chooseNextQuestion(q_name, option) {
             document.getElementById("f" + i).parentNode.style.backgroundColor = "#FCF7F8";
         }
         if (option == "no-legs") {
-            document.getElementById("bug").setattribute("src", "Clams.png");
+            document.getElementById("bug").setAttribute("src", "Clams.png");
             //alert("Clam");
             //CLAM
             reset();
@@ -138,7 +138,7 @@ function chooseNextQuestion(q_name, option) {
             document.getElementById("f" + i).parentNode.style.backgroundColor = "#FCF7F8";
         }
         if (option == "no-legs") {
-            document.getElementById("bug").setattribute("src", "Beetle.png");
+            document.getElementById("bug").setAttribute("src", "Beetle.png");
             //alert("Beetles")
             //Beetles
             reset();
@@ -159,7 +159,7 @@ function chooseNextQuestion(q_name, option) {
             document.getElementById("f" + i).parentNode.style.backgroundColor = "#FCF7F8";
         }
         if (option == "no-legs") {
-            document.getElementById("bug").setattribute("src", "Crayfish.png");
+            document.getElementById("bug").setAttribute("src", "Crayfish.png");
             //alert("Crawfish");
             //Crawfish
             reset();

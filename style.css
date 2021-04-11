@@ -214,3 +214,8 @@ h3 {
 .active {
   border-bottom: 2px solid #f2f2f2;
 }
+
+#bug_key {
+  display: grid;
+  grid-column: 1fr 1fr;
+}

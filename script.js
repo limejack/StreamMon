@@ -6,13 +6,10 @@ function clicked(){
         total += x[i].value;
     }
     window.localStorage.setItem('total',total);
-    alert(total);
-    alert(window.localStorage.getItem("total"))
 }
 var total;
 if(document.title == "Results")
 {
-    alert(document.getElementById("total").innerHTML)
     document.getElementById("total").innerHTML = window.localStorage.getItem("total");
 }
 else

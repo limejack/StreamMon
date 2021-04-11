@@ -51,7 +51,7 @@ textarea {
   /* To make sure that all text fields have the same font settings
      By default, textareas have a monospace font */
   font: 1em sans-serif;
-  text-align: center;
+  text-align: right;
   /* Uniform text field size */
   width: 20%;
   box-sizing: border-box;

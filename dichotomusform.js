@@ -266,12 +266,16 @@ function chooseNextQuestion(q_name, option) {
             document.getElementById("f" + i).parentNode.style.backgroundColor = "#FCF7F8";
         }
         if (option == "no-legs") {
-            alert("Scud");
+            document.getElementById("bug").setAttribute("src", "Scud.png");
+            document.getElementById("bug").scrollIntoView({behavior:"smooth",block:"end"});
+            //alert("Scud");
             //Scud
             reset();
         }
         if (option == "legs") {
-            alert("Sowbug");
+            document.getElementById("bug").setAttribute("src", "Sowbug.png");
+            document.getElementById("bug").scrollIntoView({behavior:"smooth",block:"end"});
+            //alert("Sowbug");
             //Sowbug
             reset();
         }
@@ -282,12 +286,16 @@ function chooseNextQuestion(q_name, option) {
             document.getElementById("f" + i).parentNode.style.backgroundColor = "#FCF7F8";
         }
         if (option == "no-legs") {
-            alert("Aquatic Worm");
+            document.getElementById("bug").setAttribute("src", "Aquatic Worm.png");
+            document.getElementById("bug").scrollIntoView({behavior:"smooth",block:"end"});
+            //alert("Aquatic Worm");
             //Aquatic Worm
             reset();
         }
         if (option == "legs") {
-            alert("Leech");
+            document.getElementById("bug").setAttribute("src", "Leech.png");
+            document.getElementById("bug").scrollIntoView({behavior:"smooth",block:"end"});
+            //alert("Leech");
             //Leech
             reset();
         }
@@ -298,12 +306,15 @@ function chooseNextQuestion(q_name, option) {
             document.getElementById("f" + i).parentNode.style.backgroundColor = "#FCF7F8";
         }
         if (option == "no-legs") {
-            alert("Black Fly");
+            document.getElementById("bug").setAttribute("src", "Black Fly.png");
+            document.getElementById("bug").scrollIntoView({behavior:"smooth",block:"end"});
+            //alert("Black Fly");
             //Black Fly
             reset();
         }
         if (option == "legs") {
-            alert("Midges");
+            document.getElementById("bug").setAttribute("src", "Midge.png");
+            //alert("Midges");
             //Midges
             reset();
         }

@@ -98,7 +98,7 @@ function chooseNextQuestion(q_name, option) {
         }
         if (option == "no-legs") {
             document.getElementById("bug").setAttribute("src", "Clams.png");
-            document.getElementById("bug").scrollIntoView();
+            document.getElementById("bug").scrollIntoView({behavior:"smooth",block:"end"});
             //alert("Clam, scroll down for more information!");
             //CLAM
             reset();

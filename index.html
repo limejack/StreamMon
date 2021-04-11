@@ -25,6 +25,65 @@ body, html {
 <body>
 
 <!-- Links (sit on top) -->
+<div class="upform">
+
+
+  <form>
+
+    <div class="upform-header"></div>
+
+    <div class="upform-main">
+
+
+      <div class="input-block">
+        <div class="label">Q1. If we give you a proven system to make at least $7,500 per month online, would you follow it to a tee?</div>
+        <div class="input-control">
+          <input id="toggle-on-q1" class="toggle toggle-left" name="q1" value="yes" type="radio">
+          <label for="toggle-on-q1" class="btn"><span>A</span> Yes</label>
+          <input id="toggle-off-q1" class="toggle toggle-right" name="q1" value="no" type="radio">
+          <label for="toggle-off-q1" class="btn"><span>B</span> No</label>
+        </div>
+      </div>
+
+      <div class="input-block">
+        <div class="label">Q2. Would you be willing to invest at least 30 minutes per day to make it work?</div>
+        <div class="input-control">
+          <input id="toggle-on-q2" class="toggle toggle-left" name="q2" value="yes" type="radio">
+          <label for="toggle-on-q2" class="btn"><span>A</span> Yes</label>
+          <input id="toggle-off-q2" class="toggle toggle-right" name="q2" value="no" type="radio">
+          <label for="toggle-off-q2" class="btn"><span>B</span> No</label>
+        </div>
+      </div>
+
+      <div class="input-block">
+        <div class="label">Q3. Would you like to get started NOW?</div>
+        <div class="input-control">
+          <input id="toggle-on-q3" class="toggle toggle-left" name="q3" value="yes" type="radio">
+          <label for="toggle-on-q3" class="btn"><span>A</span> Yes</label>
+          <input id="toggle-off-q3" class="toggle toggle-right" name="q3" value="no" type="radio">
+          <label for="toggle-off-q3" class="btn"><span>B</span> No</label>
+        </div>
+      </div>
+
+      <div class="input-block">
+        <div class="label">What is your name?</div>
+        <div class="input-control">
+          <input type="text" class="required" autocomplete="off">
+        </div>
+      </div>
+
+    </div>
+
+    <div class="upform-footer">
+      <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+    </div>
+
+  </form>
+
+
+</div>
+
+
 <div class="w3-top">
   <div class="w3-row w3-padding w3-black">
     <div class="w3-col s2">
@@ -168,8 +227,8 @@ body, html {
 <footer class="w3-center w3-light-grey w3-padding-48 w3-large">
   <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3schools.com</a></p>
 </footer>
-
-<script>
+<link
+<script src="formscript.js"></script>
 // Tabbed Menu
 function openMenu(evt, menuName) {
   var i, x, tablinks;

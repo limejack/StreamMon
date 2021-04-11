@@ -3,7 +3,7 @@ body, html {
   margin: 0;
   font-family: "Inconsolata", sans-serif;
   background-color: #FCF7F8;
-  color: 0D1B2A;
+  color: #0D1B2A;
 }
 
 .bgimg {
@@ -100,7 +100,7 @@ button {
   height: 100vh;
   overflow: hidden;
   position: relative;
-  background-color: 90C290;
+  background-color: #90C290;
 }
 
 #hero_img {
@@ -122,4 +122,28 @@ button {
 h1 {
   font-family: 'Montserrat', sans-serif;
   color: #FFF;
+}
+
+.go_to_data {
+	box-shadow:inset 0px 0px 15px 3px #354a35;
+	background:linear-gradient(to bottom, #547554 5%, #194d19 100%);
+	background-color:#547554;
+	border-radius:17px;
+	border:1px solid #90c290;
+	display:inline-block;
+	cursor:pointer;
+	color:#FCF7F8;
+	font-family: 'Montserrat', sans-serif;
+	font-size:3em;
+	padding:6px 13px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #1e291e;
+}
+.go_to_data:hover {
+	background:linear-gradient(to bottom, #194d19 5%, #547554 100%);
+	background-color:#194d19;
+}
+.go_to_data:active {
+	position:relative;
+	top:1px;
 }

@@ -12,42 +12,42 @@ function clicked(){
     {
         Metric1a += parseInt(x[i].value);
     }
-    window.localStorage.setItem('Metric1a',Metric1a/total);
+    window.localStorage.setItem('Metric1a',Metric1a*100/total);
     x = document.getElementsByClassName("Metric2a");
     var Metric2a = 0;
     for(var i = 0; i < x.length; i ++)
     {
         Metric2a += parseInt(x[i].value);
     }
-    window.localStorage.setItem('Metric2a',Metric2a/total);
+    window.localStorage.setItem('Metric2a',Metric2a*100/total);
     x = document.getElementsByClassName("Metric3a");
     var Metric3a = 0;
     for(var i = 0; i < x.length; i ++)
     {
         Metric3a += parseInt(x[i].value);
     }
-    window.localStorage.setItem('Metric3a',Metric3a/total);
+    window.localStorage.setItem('Metric3a',Metric3a*100/total);
     x = document.getElementsByClassName("Metric4a");
     var Metric4a = 0;
     for(var i = 0; i < x.length; i ++)
     {
         Metric4a += parseInt(x[i].value);
     }
-    window.localStorage.setItem('Metric4a',Metric4a/total);
+    window.localStorage.setItem('Metric4a',Metric4a*100/total);
     x = document.getElementsByClassName("Metric5a");
     var Metric5a = 0;
     for(var i = 0; i < x.length; i ++)
     {
         Metric5a += parseInt(x[i].value);
     }
-    window.localStorage.setItem('Metric5a',Metric5a/total);
+    window.localStorage.setItem('Metric5a',Metric5a*100/total);
     x = document.getElementsByClassName("Metric6a");
     var Metric6a = 0;
     for(var i = 0; i < x.length; i ++)
     {
         Metric6a += parseInt(x[i].value);
     }
-    window.localStorage.setItem('Metric6a',Metric6a/total);
+    window.localStorage.setItem('Metric6a',Metric6a*100/total);
     
     
      x = document.getElementsByClassName("Metric1b");
@@ -56,28 +56,28 @@ function clicked(){
     {
         Metric1b += parseInt(x[i].value);
     }
-    window.localStorage.setItem('Metric1b',Metric1b/total);
+    window.localStorage.setItem('Metric1b',Metric1b*100/total);
     x = document.getElementsByClassName("Metric2b");
     var Metric2b = 0;
     for(var i = 0; i < x.length; i ++)
     {
         Metric2b += parseInt(x[i].value);
     }
-    window.localStorage.setItem('Metric2b',Metric2b/total);
+    window.localStorage.setItem('Metric2b',Metric2b*100/total);
     x = document.getElementsByClassName("Metric3b");
     var Metric3b = 0;
     for(var i = 0; i < x.length; i ++)
     {
         Metric3b += parseInt(x[i].value);
     }
-    window.localStorage.setItem('Metric3b',Metric3b/total);
+    window.localStorage.setItem('Metric3b',Metric3b*100/total);
     x = document.getElementsByClassName("Metric4b");
     var Metric4b = 0;
     for(var i = 0; i < x.length; i ++)
     {
         Metric4a += parseInt(x[i].value);
     }
-    window.localStorage.setItem('Metric4b',Metric4b/total);
+    window.localStorage.setItem('Metric4b',Metric4b*100/total);
 }
 var total;
 if(document.title == "Results")

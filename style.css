@@ -238,8 +238,10 @@ h2 {
   text-align: center;
 }
 #bug {
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   width: 50%;
+  display: block;
 }
 /* #f1, #f2 {
   grid-area: row1;

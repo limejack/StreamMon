@@ -9,8 +9,8 @@ function clicked(){
 var total;
 if(document.title == "Results")
 {
-    alert(document.getElementById("total").firstChild.value)
-    document.getElementById("total").firstChild.innerHTML = window.localStorage.getItem("total");
+    alert(document.getElementById("total").innerHTML)
+    document.getElementById("total").innerHTML = window.localStorage.getItem("total");
 }
 else
 {

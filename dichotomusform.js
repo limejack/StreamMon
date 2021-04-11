@@ -22,11 +22,13 @@ function reset() {
     document.getElementById("f1").parentNode.style.backgroundColor = "#90C290";
     document.getElementById("f2").parentNode.style.backgroundColor = "#90C290";
 }
+
 reset();
 document.getElementById("f1").disabled = false;
 document.getElementById("f2").disabled = false;
 document.getElementById("f1").parentNode.style.backgroundColor = "#90C290";
 document.getElementById("f2").parentNode.style.backgroundColor = "#90C290";
+
 function chooseNextQuestion(q_name, option) {
     if (q_name == "q1") {
         for(var i = 1; i <= 40; i++) {
@@ -163,9 +165,10 @@ function chooseNextQuestion(q_name, option) {
             document.getElementById("f24").disabled = false;
             document.getElementById("f23").parentNode.style.backgroundColor = "#90C290";
             document.getElementById("f24").parentNode.style.backgroundColor = "#90C290";
+
+            document.getElementById("f13").disabled = false;
+            document.getElementById("f14").disabled = false;
         }
-        document.getElementById("f13").disabled = false;
-        document.getElementById("f14").disabled = false;
     }
     if (q_name == "q8") {
         for(var i = 1; i <= 40; i++) {
@@ -182,8 +185,6 @@ function chooseNextQuestion(q_name, option) {
             //Lunged Snail
             reset();
         }
-        document.getElementById("f15").disabled = false;
-        document.getElementById("f16").disabled = false;
     }
     if (q_name == "q9") {
         for(var i = 1; i <= 40; i++) {
@@ -195,14 +196,15 @@ function chooseNextQuestion(q_name, option) {
             document.getElementById("f26").disabled = false;
             document.getElementById("f25").parentNode.style.backgroundColor = "#90C290";
             document.getElementById("f26").parentNode.style.backgroundColor = "#90C290";
+            
+            document.getElementById("f17").disabled = false;
+            document.getElementById("f18").disabled = false;
         }
         if (option == "legs") {
             alert("FlatWorm");
             //Flat Worm
             reset();
         }
-        document.getElementById("f17").disabled = false;
-        document.getElementById("f18").disabled = false;
     }
     if (q_name == "q10") {
         for(var i = 1; i <= 40; i++) {
@@ -214,14 +216,15 @@ function chooseNextQuestion(q_name, option) {
             document.getElementById("f28").disabled = false;
             document.getElementById("f27").parentNode.style.backgroundColor = "#90C290";
             document.getElementById("f28").parentNode.style.backgroundColor = "#90C290";
+            
+            document.getElementById("f19").disabled = false;
+            document.getElementById("f20").disabled = false;
         }
         if (option == "legs") {
             alert("Most True Flies");
             //Most True Flies
             reset();
         }
-        document.getElementById("f19").disabled = false;
-        document.getElementById("f20").disabled = false;
     }
     if (q_name == "q11") {
         for(var i = 1; i <= 40; i++) {
@@ -258,8 +261,6 @@ function chooseNextQuestion(q_name, option) {
             //Sowbug
             reset();
         }
-        document.getElementById("f23").disabled = false;
-        document.getElementById("f24").disabled = false;
     }
     if (q_name == "q13") {
         for(var i = 1; i <= 40; i++) {
@@ -276,8 +277,6 @@ function chooseNextQuestion(q_name, option) {
             //Leech
             reset();
         }
-        document.getElementById("f25").disabled = false;
-        document.getElementById("f26").disabled = false;
     }
     if (q_name == "q14") {
         for(var i = 1; i <= 40; i++) {
@@ -294,8 +293,6 @@ function chooseNextQuestion(q_name, option) {
             //Midges
             reset();
         }
-        document.getElementById("f27").disabled = false;
-        document.getElementById("f28").disabled = false;
     }
     if (q_name == "q15") {
         for(var i = 1; i <= 40; i++) {
@@ -332,8 +329,6 @@ function chooseNextQuestion(q_name, option) {
             //Most Caddisfly
             reset();
         }
-        document.getElementById("f31").disabled = false;
-        document.getElementById("f32").disabled = false;
     }
     if (q_name == "q17") {
         for(var i = 1; i <= 40; i++) {
@@ -370,8 +365,6 @@ function chooseNextQuestion(q_name, option) {
             //Dragonfly and Damselfly
             reset();
         }
-        document.getElementById("f35").disabled = false;
-        document.getElementById("f36").disabled = false;
     }
     if (q_name == "q19") {
         for(var i = 1; i <= 40; i++) {
@@ -388,8 +381,6 @@ function chooseNextQuestion(q_name, option) {
             //Mayfly
             reset();
         }
-        document.getElementById("f37").disabled = false;
-        document.getElementById("f38").disabled = false;
     }
     if (q_name == "q20") {
         for(var i = 1; i <= 40; i++) {
@@ -406,7 +397,5 @@ function chooseNextQuestion(q_name, option) {
             //Common Netspinner
             reset();
         }
-        document.getElementById("f39").disabled = false;
-        document.getElementById("f40").disabled = false;
     }
 };

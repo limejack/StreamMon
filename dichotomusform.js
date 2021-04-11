@@ -103,9 +103,10 @@ function chooseNextQuestion(q_name, option) {
             document.getElementById("f16").disabled = false;
             document.getElementById("f15").parentNode.style.borderBottom = "2px solid #90C290";
             document.getElementById("f16").parentNode.style.borderBottom = "2px solid #90C290";
+
+            document.getElementById("f7").disabled = false;
+            document.getElementById("f8").disabled = false;
         }
-        document.getElementById("f7").disabled = false;
-        document.getElementById("f8").disabled = false;
     }
     if (q_name == "q5") {
         for(var i = 1; i <= 40; i++) {
@@ -142,9 +143,10 @@ function chooseNextQuestion(q_name, option) {
             document.getElementById("f22").disabled = false;
             document.getElementById("f21").parentNode.style.borderBottom = "2px solid #90C290";
             document.getElementById("f22").parentNode.style.borderBottom = "2px solid #90C290";
+
+            document.getElementById("f11").disabled = false;
+            document.getElementById("f12").disabled = false;
         }
-        document.getElementById("f11").disabled = false;
-        document.getElementById("f12").disabled = false;
     }
     if (q_name == "q7") {
         for(var i = 1; i <= 40; i++) {

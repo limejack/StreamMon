@@ -225,16 +225,75 @@ h3 {
 #head_of_key {
   grid-area: title;
 }
-.bug_question_columns {
+#f1, #f2 {
+  grid-area: row1;
+}
+#f3, #f4 {
+  grid-area: row2;
+}
+#f5, #f6 {
+  grid-area: row3;
+}
+#f7, #f8 {
+  grid-area: row4;
+}
+#f9, #f10 {
+  grid-area: row5;
+}
+#f11, #f12 {
+  grid-area: row6;
+}
+#f13, #f14 {
+  grid-area: row7;
+}
+#f15, #f16 {
+  grid-area: row8;
+}
+#f17, #f18 {
+  grid-area: row9;
+}
+#f19, #f20 {
+  grid-area: row10;
+}
+#f21, #f22 {
+  grid-area: row11;
+}
+#f23, #f24 {
+  grid-area: row12;
+}
+#f25, #f26 {
+  grid-area: row13;
+}
+#f27, #f28 {
+  grid-area: row14;
+}
+#f29, #f30 {
+  grid-area: row15;
+}
+#f31, #f32 {
+  grid-area: row16;
+}
+#f33, #f34 {
+  grid-area: row17;
+}
+#f35, #f36 {
+  grid-area: row18;
+}
+#f37, #f38 {
+  grid-area: row19;
+}
+#f39, #f40 {
+  grid-area: row20;
+}
+/* .bug_question_columns {
   display: inline-block;
   /* width: 80%; */
   /* grid-column: 1; */
-}
-#left_bug_questions {
+/* #left_bug_questions {
   width: 80%;
   grid-area: l;
 }
 #right_bug_questions {
   width: 80%;
   grid-area: r;
-}
+} */

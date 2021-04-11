@@ -17,8 +17,8 @@ function chooseNextQuestion(q_name, option) {
             document.getElementById("f1").disabled = true;
             document.getElementById("f2").disabled = true;
             }
-        } else {
+        // } else {
 
-        }
+        // }
     }
 };

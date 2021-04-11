@@ -136,6 +136,10 @@ h2 {
   text-align: center;
 }
 
+#key_form h2 {
+  text-align: center;
+}
+
 h1 {
   font-family: 'Montserrat', sans-serif;
   color: #FFF;

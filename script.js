@@ -52,7 +52,7 @@ function clicked(){
 var total;
 if(document.title == "Results")
 {
-    document.getElementById("total").innerHTML = window.localStorage.getItem("total");
+    document.getElementById("total").innerHTML = "Total: " +window.localStorage.getItem("total");
     document.getElementById("Metric1a").innerHTML = window.localStorage.getItem("Metric1a");
 }
 else

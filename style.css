@@ -216,21 +216,25 @@ h3 {
 }
 
 #bug_key {
+  margin: auto;
+  width:75%;
   display: grid;
-  grid-template-areas: "title"
-                      "l, r";
+  grid-template-areas: "title title"
+                      "l r";
 }
-#bug_key h2 {
+#head_of_key {
   grid-area: title;
 }
 .bug_question_columns {
   display: inline-block;
-  width: 80%;
-  grid-column: 1;
+  /* width: 80%; */
+  /* grid-column: 1; */
 }
 #left_bug_questions {
+  width: 80%;
   grid-area: l;
 }
 #right_bug_questions {
+  width: 80%;
   grid-area: r;
 }

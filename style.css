@@ -108,7 +108,7 @@ textarea {
 #hero_text {
   position: absolute;
   text-align: center;
-  top:50%;
+  top:35%;
   left:50%;
   transform: translate(-50%, -50%);
     font-size: 4em;
@@ -163,4 +163,5 @@ h3 {
   font-family: 'Montserrat', sans-serif;
   color: #0D1B2A;
   font-size: 1.5em;
+  border-bottom: 2px solid #90C290;
 }

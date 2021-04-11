@@ -6,8 +6,12 @@ function clicked(){
     }
 }
 var total;
-document.getElementById("main_form").onsubmit = clicked;
+
 if(document.title.innerHtml == "Data")
 {
     document.getElementById("total").text = total;
+}
+else
+{
+    document.getElementById("main_form").onsubmit = clicked;
 }

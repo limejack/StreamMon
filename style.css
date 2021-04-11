@@ -238,9 +238,10 @@ h2 {
   text-align: center;
 }
 #bug {
+  margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 25%;
   display: block;
 }
 /* #f1, #f2 {

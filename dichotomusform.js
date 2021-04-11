@@ -98,6 +98,7 @@ function chooseNextQuestion(q_name, option) {
         }
         if (option == "no-legs") {
             document.getElementById("bug").setAttribute("src", "Clams.png");
+            document.getElementById("bug").scrollIntoView();
             //alert("Clam, scroll down for more information!");
             //CLAM
             reset();
@@ -327,12 +328,14 @@ function chooseNextQuestion(q_name, option) {
             document.getElementById("f" + i).parentNode.style.backgroundColor = "#FCF7F8";
         }
         if (option == "no-legs") {
-            alert("Dragonfly and Damselfly");
+            document.getElementById("bug").setAttribute("src", "Dragonfly.png");
+            //alert("Dragonfly and Damselfly");
             //Dragonfly and Damselfly
             reset();
         }
         if (option == "legs") {
-            alert("Most Caddisfly");
+            document.getElementById("bug").setAttribute("src", "Most Caddisfly.png");
+            //alert("Most Caddisfly");
             //Most Caddisfly
             reset();
         }
@@ -363,12 +366,14 @@ function chooseNextQuestion(q_name, option) {
             document.getElementById("f" + i).parentNode.style.backgroundColor = "#FCF7F8";
         }
         if (option == "no-legs") {
-            alert("Mayfly");
+            document.getElementById("bug").setAttribute("src", "Mayfly.png");
+            //alert("Mayfly");
             //Mayfly
             reset();
         }
         if (option == "legs") {
-            alert("Dragonfly and Damselfly");
+            document.getElementById("bug").setAttribute("src", "Dragonfly.png");
+            //alert("Dragonfly and Damselfly");
             //Dragonfly and Damselfly
             reset();
         }
@@ -379,12 +384,14 @@ function chooseNextQuestion(q_name, option) {
             document.getElementById("f" + i).parentNode.style.backgroundColor = "#FCF7F8";
         }
         if (option == "no-legs") {
-            alert("Stonefly");
+            document.getElementById("bug").setAttribute("src", "Stonefly.png");
+            //alert("Stonefly");
             //Stonefly
             reset();
         }
         if (option == "legs") {
-            alert("Mayfly");
+            document.getElementById("bug").setAttribute("src", "Mayfly.png");
+            //alert("Mayfly");
             //Mayfly
             reset();
         }
@@ -395,12 +402,14 @@ function chooseNextQuestion(q_name, option) {
             document.getElementById("f" + i).parentNode.style.backgroundColor = "#FCF7F8";
         }
         if (option == "no-legs") {
-            alert("Hellgrammites, Fishfly, Alderfly");
+            document.getElementById("bug").setAttribute("src", "Hellgrammite.png");
+            //alert("Hellgrammites, Fishfly, Alderfly");
             //Hellgrammites, Fishfly, Alderfly
             reset();
         }
         if (option == "legs") {
-            alert("Common Netspinner");
+            document.getElementById("bug").setAttribute("src", "Netspinner.png");
+            //alert("Common Netspinner");
             //Common Netspinner
             reset();
         }

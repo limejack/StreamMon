@@ -139,6 +139,20 @@ if(document.title == "Results")
     {
         scoreR += 1;
     }    
+    
+    
+    if(scoreR > 9)
+    {
+        scoreR = scoreR + " which is a good quality";
+    }
+    if(scoreR == 8)
+    {
+        scoreR = scoreR + " which is indeterminante quality.";
+    }
+    else
+    {
+        scoreR = scoreR + " which is terrible.";
+    }
     document.getElementById("RockyMetric").innerHTML = "Rocky bottom score: " +scoreR;
     
     
@@ -180,6 +194,18 @@ if(document.title == "Results")
     {
         scoreM += 1;
     }    
+    if(scoreM > 9)
+    {
+        scoreM = scoreM + " which is a good quality";
+    }
+    if(scoreM == 8)
+    {
+        scoreM = scoreM + " which is indeterminante quality.";
+    }
+    else
+    {
+        scoreM = scoreM + " which is terrible.";
+    }
     document.getElementById("MuddyMetric").innerHTML = "Muddy bottom score: " +scoreM;
 
 }

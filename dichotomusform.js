@@ -191,6 +191,7 @@ function chooseNextQuestion(q_name, option) {
         }
         if (option == "legs") {
             document.getElementById("bug").setAttribute("src", "Lunged Snails.png");
+            document.getElementById("bug").scrollIntoView({behavior:"smooth",block:"end"});
             //alert("Lunged Snail");
             //Lunged Snail
             reset();

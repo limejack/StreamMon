@@ -16,7 +16,8 @@ for(var i = 1; i <= 40; i++) {
 }
 document.getElementById("f1").disabled = false;
 document.getElementById("f2").disabled = false;
-
+document.getElementById("f1").style.borderBottom = "2px solid #90C290";
+document.getElementById("f2").style.borderBottom = "2px solid #90C290";
 function chooseNextQuestion(q_name, option) {
     if (q_name == "q1") {
         for(var i = 1; i <= 40; i++) {

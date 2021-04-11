@@ -11,8 +11,13 @@
 //             }
 //             alert(selectedValue);
 //         };
-for(var i = 1; i <= 40; i++) {
-    document.getElementById("f" + i).disabled = true;
+function reset() {
+    for(var i = 1; i <= 40; i++) {
+        document.getElementById("f" + i).disabled = true;
+        document.getElementById("f" + i).checked = false;
+    }
+    document.getElementById("f1").disabled = false;
+    document.getElementById("f2").disabled = false;
 }
 document.getElementById("f1").disabled = false;
 document.getElementById("f2").disabled = false;

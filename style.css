@@ -217,11 +217,16 @@ h3 {
 
 #bug_key {
   display: grid;
-  grid: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }
-#left_bug_questions {
+.bug_question_columns {
+  display: inline-block;
+  width: 80%;
   grid-column: 1;
 }
+#left_bug_questions {
+  
+}
 #right_bug_questions {
-  grid-column: 2;
+  
 }

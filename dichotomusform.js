@@ -96,7 +96,8 @@ function chooseNextQuestion(q_name, option) {
             document.getElementById("f" + i).parentNode.style.backgroundColor = "#FCF7F8";
         }
         if (option == "no-legs") {
-            alert("Clam");
+            document.getElementById("").setattribute("src", "Clams.png");
+            //alert("Clam");
             //CLAM
             reset();
         }

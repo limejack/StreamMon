@@ -41,7 +41,7 @@ form li + li {
 label {
   /* Uniform size & alignment */
   display: inline-block;
-  width: 90px;
+  width: 10%;
   text-align: right;
 }
 
@@ -52,7 +52,7 @@ textarea {
   font: 1em sans-serif;
 
   /* Uniform text field size */
-  width: 300px;
+  width: 55%;
   box-sizing: border-box;
 
   /* Match form field borders */
@@ -75,7 +75,7 @@ textarea {
 
 .button {
   /* Align buttons with the text fields */
-  padding-left: 90px; /* same size as the label elements */
+  padding-left: 10%; /* same size as the label elements */
 }
 
 button {

@@ -7,7 +7,7 @@ function clicked(){
 }
 var total;
 
-if(document.title.innerHtml == "Data")
+if(document.title.innerHtml == "Results")
 {
     document.getElementById("total").text = total;
 }

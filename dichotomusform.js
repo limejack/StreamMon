@@ -140,6 +140,7 @@ function chooseNextQuestion(q_name, option) {
         }
         if (option == "no-legs") {
             document.getElementById("bug").setAttribute("src", "Beetle.png");
+            document.getElementById("bug").scrollIntoView({behavior:"smooth",block:"end"});
             //alert("Beetles")
             //Beetles
             reset();
@@ -161,6 +162,7 @@ function chooseNextQuestion(q_name, option) {
         }
         if (option == "no-legs") {
             document.getElementById("bug").setAttribute("src", "Crayfish.png");
+            document.getElementById("bug").scrollIntoView({behavior:"smooth",block:"end"});
             //alert("Crawfish");
             //Crawfish
             reset();
@@ -182,6 +184,7 @@ function chooseNextQuestion(q_name, option) {
         }
         if (option == "no-legs") {
             document.getElementById("bug").setAttribute("src", "Gilled Snails.png");
+            document.getElementById("bug").scrollIntoView({behavior:"smooth",block:"end"});
             //alert("Gilled Snail");
             //Gilled Snail
             reset();
@@ -209,6 +212,7 @@ function chooseNextQuestion(q_name, option) {
         }
         if (option == "legs") {
             document.getElementById("bug").setAttribute("src", "Flat Worm.png");
+            document.getElementById("bug").scrollIntoView({behavior:"smooth",block:"end"});
             //alert("FlatWorm");
             //Flat Worm
             reset();
@@ -229,7 +233,9 @@ function chooseNextQuestion(q_name, option) {
             document.getElementById("f20").disabled = false;
         }
         if (option == "legs") {
-            alert("Most True Flies");
+            document.getElementById("bug").setAttribute("src", "Most True Fly.png");
+            document.getElementById("bug").scrollIntoView({behavior:"smooth",block:"end"});
+            //alert("Most True Flies");
             //Most True Flies
             reset();
         }
@@ -329,12 +335,14 @@ function chooseNextQuestion(q_name, option) {
         }
         if (option == "no-legs") {
             document.getElementById("bug").setAttribute("src", "Dragonfly.png");
+            document.getElementById("bug").scrollIntoView({behavior:"smooth",block:"end"});
             //alert("Dragonfly and Damselfly");
             //Dragonfly and Damselfly
             reset();
         }
         if (option == "legs") {
             document.getElementById("bug").setAttribute("src", "Most Caddisfly.png");
+            document.getElementById("bug").scrollIntoView({behavior:"smooth",block:"end"});
             //alert("Most Caddisfly");
             //Most Caddisfly
             reset();
@@ -367,12 +375,14 @@ function chooseNextQuestion(q_name, option) {
         }
         if (option == "no-legs") {
             document.getElementById("bug").setAttribute("src", "Mayfly.png");
+            document.getElementById("bug").scrollIntoView({behavior:"smooth",block:"end"});
             //alert("Mayfly");
             //Mayfly
             reset();
         }
         if (option == "legs") {
             document.getElementById("bug").setAttribute("src", "Dragonfly.png");
+            document.getElementById("bug").scrollIntoView({behavior:"smooth",block:"end"});
             //alert("Dragonfly and Damselfly");
             //Dragonfly and Damselfly
             reset();
@@ -385,12 +395,14 @@ function chooseNextQuestion(q_name, option) {
         }
         if (option == "no-legs") {
             document.getElementById("bug").setAttribute("src", "Stonefly.png");
+            document.getElementById("bug").scrollIntoView({behavior:"smooth",block:"end"});
             //alert("Stonefly");
             //Stonefly
             reset();
         }
         if (option == "legs") {
             document.getElementById("bug").setAttribute("src", "Mayfly.png");
+            document.getElementById("bug").scrollIntoView({behavior:"smooth",block:"end"});
             //alert("Mayfly");
             //Mayfly
             reset();
@@ -403,12 +415,14 @@ function chooseNextQuestion(q_name, option) {
         }
         if (option == "no-legs") {
             document.getElementById("bug").setAttribute("src", "Hellgrammite.png");
+            document.getElementById("bug").scrollIntoView({behavior:"smooth",block:"end"});
             //alert("Hellgrammites, Fishfly, Alderfly");
             //Hellgrammites, Fishfly, Alderfly
             reset();
         }
         if (option == "legs") {
             document.getElementById("bug").setAttribute("src", "Netspinner.png");
+            document.getElementById("bug").scrollIntoView({behavior:"smooth",block:"end"});
             //alert("Common Netspinner");
             //Common Netspinner
             reset();

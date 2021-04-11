@@ -21,7 +21,7 @@ function reset() {
     
     document.getElementById("f1").parentNode.style.backgroundColor = "#90C290";
     document.getElementById("f2").parentNode.style.backgroundColor = "#90C290";
-    document.getElementById("bug").setAttribute("src", "");
+    //document.getElementById("bug").setAttribute("src", "");
 }
 
 reset();
@@ -98,7 +98,7 @@ function chooseNextQuestion(q_name, option) {
         }
         if (option == "no-legs") {
             document.getElementById("bug").setAttribute("src", "Clams.png");
-            //alert("Clam");
+            alert("Clam, scroll down for more information!");
             //CLAM
             reset();
         }

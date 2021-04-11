@@ -18,6 +18,9 @@ function reset() {
     }
     document.getElementById("f1").disabled = false;
     document.getElementById("f2").disabled = false;
+    
+    document.getElementById("f1").parentNode.style.borderBottom = "2px solid #90C290";
+    document.getElementById("f2").parentNode.style.borderBottom = "2px solid #90C290";
 }
 reset();
 document.getElementById("f1").disabled = false;

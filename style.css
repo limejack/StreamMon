@@ -219,13 +219,17 @@ h3 {
   margin: auto;
   width:75%;
   display: grid;
-  grid-template-areas: "title title"
-                      "l r";
+  grid-template-areas: "title title";
+  grid-template-columns: 1fr 1fr;
+}
+#bug_key li {
+  list-style: none;
 }
 #head_of_key {
   grid-area: title;
 }
-#f1, #f2 {
+
+/* #f1, #f2 {
   grid-area: row1;
 }
 #f3, #f4 {
@@ -284,7 +288,7 @@ h3 {
 }
 #f39, #f40 {
   grid-area: row20;
-}
+} */
 /* .bug_question_columns {
   display: inline-block;
   /* width: 80%; */

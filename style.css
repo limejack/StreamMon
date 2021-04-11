@@ -58,12 +58,14 @@ textarea {
 
   /* Match form field borders */
   border: 0px solid #999;
-  border-bottom: 2px solid #999;
+  border-right: 2px solid #999;
 }
 
 input:focus,
 textarea:focus {
   /* Additional highlight for focused elements */
+  border: 0px solid #999;
+  border-right: 2px solid #999;
   border-color: #000;
 }
 

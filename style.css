@@ -174,3 +174,14 @@ h3 {
   padding-bottom: .3em;
   border-bottom: 2px solid #90C290;
 }
+#nav-bar {
+	padding: 20px 20px;
+}
+#nav-bar a{
+	float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}

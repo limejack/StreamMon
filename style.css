@@ -52,7 +52,8 @@ label {
 }
 
 #bug_key label {
-  width: 65%;
+  width: 25%;
+  test-align: left;
 }
 
 input,

@@ -41,8 +41,9 @@ form li + li {
 label {
   /* Uniform size & alignment */
   display: inline-block;
-  width: 10%;
+  width: 20%;
   text-align: right;
+  margin-left: 20%;
 }
 
 input,

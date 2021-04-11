@@ -11,6 +11,9 @@
 //             }
 //             alert(selectedValue);
 //         };
+for(var i = 1; i <= 40; i++) {
+    document.getElementById("f" + i).disabled = true;
+}
 function chooseNextQuestion(q_name, option) {
     if (q_name == "q1") {
         for(var i = 1; i <= 40; i++) {

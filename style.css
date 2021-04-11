@@ -53,7 +53,7 @@ label {
 
 #bug_key label {
   width: 10%;
-  test-align: left;
+  text-align: left;
 }
 
 input,

@@ -217,7 +217,11 @@ h3 {
 
 #bug_key {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "title"
+                      "l, r";
+}
+#bug_key h2 {
+  grid-area: title;
 }
 .bug_question_columns {
   display: inline-block;
@@ -225,8 +229,8 @@ h3 {
   grid-column: 1;
 }
 #left_bug_questions {
-  
+  grid-area: l;
 }
 #right_bug_questions {
-  
+  grid-area: r;
 }

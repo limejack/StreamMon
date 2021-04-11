@@ -177,6 +177,7 @@ h3 {
 #nav-bar {
 	padding: 20px 20px;
   background-color: #90C290;
+  height: 7.5vh;
 }
 #nav-bar a{
 	float: right;

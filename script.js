@@ -180,7 +180,7 @@ if(document.title == "Results")
     {
         scoreM += 1;
     }    
-    document.getElementById("MuddyMetric").innerHTML = "Muddy bottom score: " +score<;
+    document.getElementById("MuddyMetric").innerHTML = "Muddy bottom score: " +scoreM;
 
 }
 else

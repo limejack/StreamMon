@@ -5,7 +5,7 @@ function clicked(){
     {
         total += parseInt(x[i].value);
     }
-    window.localStorage.setItem('total',total);
+    window.localStorage.setItem('total',"Total: "+total);
     x = document.getElementsByClassName("Metric1a");
     var Metric1a = 0;
     for(var i = 0; i < x.length; i ++)

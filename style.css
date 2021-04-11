@@ -230,6 +230,7 @@ h2 {
 }
 #bug_key li {
   list-style: none;
+  padding: 10px 5px;
 }
 #head_of_key {
   width: 55%;

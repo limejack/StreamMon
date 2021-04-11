@@ -84,6 +84,7 @@ function chooseNextQuestion(q_name, option) {
             document.getElementById("f" + i).style.border = "0";
         }
         if (option == "no-legs") {
+            alert("Clam");
             //CLAM
         }
         if (option == "legs") {
@@ -121,6 +122,7 @@ function chooseNextQuestion(q_name, option) {
             document.getElementById("f" + i).style.border = "0";
         }
         if (option == "no-legs") {
+            alert("Beetles")
             //Beetles
         }
         if (option == "legs") {
@@ -138,6 +140,7 @@ function chooseNextQuestion(q_name, option) {
             document.getElementById("f" + i).style.border = "0";
         }
         if (option == "no-legs") {
+            alert("Crawfish");
             //Crawfish
         }
         if (option == "legs") {
@@ -155,9 +158,11 @@ function chooseNextQuestion(q_name, option) {
             document.getElementById("f" + i).style.border = "0";
         }
         if (option == "no-legs") {
+            alert("Gilled Snail");
             //Gilled Snail
         }
         if (option == "legs") {
+            alert("Lunged Snail");
             //Lunged Snail
         }
         document.getElementById("f15").disabled = false;
@@ -175,6 +180,7 @@ function chooseNextQuestion(q_name, option) {
             document.getElementById("f26").style.borderBottom = "2px solid #90C290";
         }
         if (option == "legs") {
+            alert("FlatWorm");
             //Flat Worm
         }
         document.getElementById("f17").disabled = false;
@@ -192,6 +198,7 @@ function chooseNextQuestion(q_name, option) {
             document.getElementById("f28").style.borderBottom = "2px solid #90C290";
         }
         if (option == "legs") {
+            alert("Most True Flies");
             //Most True Flies
         }
         document.getElementById("f19").disabled = false;
@@ -223,9 +230,11 @@ function chooseNextQuestion(q_name, option) {
             document.getElementById("f" + i).style.border = "0";
         }
         if (option == "no-legs") {
+            alert("Scud");
             //Scud
         }
         if (option == "legs") {
+            alert("Sowbug");
             //Sowbug
         }
         document.getElementById("f23").disabled = false;
@@ -237,9 +246,11 @@ function chooseNextQuestion(q_name, option) {
             document.getElementById("f" + i).style.border = "0";
         }
         if (option == "no-legs") {
+            alert("Aquatic Worm");
             //Aquatic Worm
         }
         if (option == "legs") {
+            alert("Leech");
             //Leech
         }
         document.getElementById("f25").disabled = false;
@@ -251,9 +262,11 @@ function chooseNextQuestion(q_name, option) {
             document.getElementById("f" + i).style.border = "0";
         }
         if (option == "no-legs") {
+            alert("Black Fly");
             //Black Fly
         }
         if (option == "legs") {
+            alert("Midges");
             //Midges
         }
         document.getElementById("f27").disabled = false;
@@ -285,9 +298,11 @@ function chooseNextQuestion(q_name, option) {
             document.getElementById("f" + i).style.border = "0";
         }
         if (option == "no-legs") {
+            alert("Dragonfly and Damselfly");
             //Dragonfly and Damselfy
         }
         if (option == "legs") {
+            alert("Most Caddisfly");
             //Most Caddisfly
         }
         document.getElementById("f31").disabled = false;
@@ -319,9 +334,11 @@ function chooseNextQuestion(q_name, option) {
             document.getElementById("f" + i).style.border = "0";
         }
         if (option == "no-legs") {
+            alert("Mayfly");
             //Mayfly
         }
         if (option == "legs") {
+            alert("Dragonfly and Damselfly");
             //Dragonfly and Damselfly
         }
         document.getElementById("f35").disabled = false;
@@ -333,9 +350,11 @@ function chooseNextQuestion(q_name, option) {
             document.getElementById("f" + i).style.border = "0";
         }
         if (option == "no-legs") {
+            alert("Stonefly");
             //Stonefly
         }
         if (option == "legs") {
+            alert("Mayfly");
             //Mayfly
         }
         document.getElementById("f37").disabled = false;
@@ -347,9 +366,11 @@ function chooseNextQuestion(q_name, option) {
             document.getElementById("f" + i).style.border = "0";
         }
         if (option == "no-legs") {
+            alert("Hellgrammites, Fishfly, Alderfly");
             //Hellgrammites, Fishfly, Alderfly
         }
         if (option == "legs") {
+            alert("Common Netspinner");
             //Common Netspinner
         }
         document.getElementById("f39").disabled = false;

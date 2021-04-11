@@ -82,12 +82,12 @@ function chooseNextQuestion(q_name, option) {
             document.getElementById("f" + i).disabled = true;
         }
         if (option == "no-legs") {
-            document.getElementById("f3").disabled = false;
-            document.getElementById("f4").disabled = false;
+            document.getElementById("f17").disabled = false;
+            document.getElementById("f18").disabled = false;
         }
         if (option == "legs") {
-            document.getElementById("f5").disabled = false;
-            document.getElementById("f6").disabled = false;
+            document.getElementById("f19").disabled = false;
+            document.getElementById("20").disabled = false;
         }
         document.getElementById("f9").disabled = false;
         document.getElementById("f10").disabled = false;
@@ -97,12 +97,11 @@ function chooseNextQuestion(q_name, option) {
             document.getElementById("f" + i).disabled = true;
         }
         if (option == "no-legs") {
-            document.getElementById("f3").disabled = false;
-            document.getElementById("f4").disabled = false;
+            //Beetles
         }
         if (option == "legs") {
-            document.getElementById("f5").disabled = false;
-            document.getElementById("f6").disabled = false;
+            document.getElementById("f21").disabled = false;
+            document.getElementById("f22").disabled = false;
         }
         document.getElementById("f11").disabled = false;
         document.getElementById("f12").disabled = false;
@@ -112,12 +111,11 @@ function chooseNextQuestion(q_name, option) {
             document.getElementById("f" + i).disabled = true;
         }
         if (option == "no-legs") {
-            document.getElementById("f3").disabled = false;
-            document.getElementById("f4").disabled = false;
+            //Crawfish
         }
         if (option == "legs") {
-            document.getElementById("f5").disabled = false;
-            document.getElementById("f6").disabled = false;
+            document.getElementById("f24").disabled = false;
+            document.getElementById("f25").disabled = false;
         }
         document.getElementById("f13").disabled = false;
         document.getElementById("f14").disabled = false;

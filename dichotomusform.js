@@ -14,8 +14,9 @@
 function chooseNextQuestion(q_name, option) {
     if (q_name == "q1") {
         if (option == "no-legs") {
-            document.getElementById("f1").disabled = true;
-            document.getElementById("f2").disabled = true;
+            for(var i = 1; i <= 40; i++) {
+                document.getElementById("f" + i).disabled = true;
+            }
         }
     }
 };

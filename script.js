@@ -5,7 +5,7 @@ function clicked(){
     {
         total += parseInt(x[i].value);
     }
-    window.localStorage.setItem('total',"Total: "+total);
+    window.localStorage.setItem('total',total);
     x = document.getElementsByClassName("Metric1a");
     var Metric1a = 0;
     for(var i = 0; i < x.length; i ++)
@@ -52,7 +52,7 @@ function clicked(){
 var total;
 if(document.title == "Results")
 {
-    document.getElementById("total").innerHTML = window.localStorage.getItem("total");
+    document.getElementById("total").innerHTML = "Total: " +window.localStorage.getItem("total");
     document.getElementById("Metric1a").innerHTML = window.localStorage.getItem("Metric1a");
 }
 else

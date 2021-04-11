@@ -98,7 +98,7 @@ function chooseNextQuestion(q_name, option) {
         }
         if (option == "no-legs") {
             document.getElementById("bug").setAttribute("src", "Clams.png");
-            alert("Clam, scroll down for more information!");
+            //alert("Clam, scroll down for more information!");
             //CLAM
             reset();
         }
@@ -180,12 +180,14 @@ function chooseNextQuestion(q_name, option) {
             document.getElementById("f" + i).parentNode.style.backgroundColor = "#FCF7F8";
         }
         if (option == "no-legs") {
-            alert("Gilled Snail");
+            document.getElementById("bug").setAttribute("src", "Gilled Snails.png");
+            //alert("Gilled Snail");
             //Gilled Snail
             reset();
         }
         if (option == "legs") {
-            alert("Lunged Snail");
+            document.getElementById("bug").setAttribute("src", "Lunged Snails.png");
+            //alert("Lunged Snail");
             //Lunged Snail
             reset();
         }
@@ -205,7 +207,8 @@ function chooseNextQuestion(q_name, option) {
             document.getElementById("f18").disabled = false;
         }
         if (option == "legs") {
-            alert("FlatWorm");
+            document.getElementById("bug").setAttribute("src", "Flat Worm.png");
+            //alert("FlatWorm");
             //Flat Worm
             reset();
         }

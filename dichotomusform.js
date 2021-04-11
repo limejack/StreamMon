@@ -96,7 +96,7 @@ function chooseNextQuestion(q_name, option) {
             document.getElementById("f" + i).parentNode.style.backgroundColor = "#FCF7F8";
         }
         if (option == "no-legs") {
-            document.getElementById("").setattribute("src", "Clams.png");
+            document.getElementById("bug").setattribute("src", "Clams.png");
             //alert("Clam");
             //CLAM
             reset();
@@ -137,7 +137,8 @@ function chooseNextQuestion(q_name, option) {
             document.getElementById("f" + i).parentNode.style.backgroundColor = "#FCF7F8";
         }
         if (option == "no-legs") {
-            alert("Beetles")
+            document.getElementById("bug").setattribute("src", "Beetle.png");
+            //alert("Beetles")
             //Beetles
             reset();
         }
@@ -157,7 +158,8 @@ function chooseNextQuestion(q_name, option) {
             document.getElementById("f" + i).parentNode.style.backgroundColor = "#FCF7F8";
         }
         if (option == "no-legs") {
-            alert("Crawfish");
+            document.getElementById("bug").setattribute("src", "Crayfish.png");
+            //alert("Crawfish");
             //Crawfish
             reset();
         }

@@ -166,6 +166,12 @@ footer {
   font-size: 1.5em;
   margin: auto;
 }
+#contact {
+  width: 75%;
+  padding: 5%;
+  font-size: 1.5em;
+  margin: auto;
+}
 
 h3 {
   font-family: 'Montserrat', sans-serif;

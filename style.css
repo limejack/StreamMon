@@ -197,6 +197,13 @@ h3 {
   padding-bottom: .3em;
   border-bottom: 2px solid #90C290;
 }
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #0D1B2A;
+  font-size: 1.5em;
+  padding-bottom: .3em;
+  /* border-bottom: 2px solid #90C290; */
+}
 #nav-bar {
 	padding: 20px 20px;
   background-color: #90C290;
@@ -219,14 +226,15 @@ h3 {
   margin: auto;
   width:75%;
   display: grid;
-  grid-template-areas: "title title";
   grid-template-columns: 1fr 1fr;
 }
 #bug_key li {
   list-style: none;
 }
 #head_of_key {
-  grid-area: title;
+  width: 55%;
+  margin: auto;
+  text-align: center;
 }
 
 /* #f1, #f2 {

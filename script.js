@@ -6,7 +6,7 @@ function clicked(){
     }
 }
 var total;
-
+alert(document.title.innerHtml);
 if(document.title.innerHtml == "Results")
 {
     document.getElementById("total").text = total;

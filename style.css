@@ -217,5 +217,11 @@ h3 {
 
 #bug_key {
   display: grid;
-  grid-column: 1fr 1fr;
+  grid: 1fr 1fr;
+}
+#left_bug_questions {
+  grid-column: 1;
+}
+#right_bug_questions {
+  grid-column: 2;
 }

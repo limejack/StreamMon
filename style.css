@@ -51,22 +51,23 @@ textarea {
   /* To make sure that all text fields have the same font settings
      By default, textareas have a monospace font */
   font: 1em sans-serif;
-  text-align: right;
+  text-align: left;
   /* Uniform text field size */
   width: 20%;
   box-sizing: border-box;
 
   /* Match form field borders */
   border: 0px solid #999;
-  border-right: 2px solid #999;
+  border-left: 2px solid #999;
+  padding: 1em;
 }
 
 input:focus,
 textarea:focus {
   /* Additional highlight for focused elements */
   border: 0px solid #999;
-  border-right: 2px solid #999;
-  border-color: #000;
+  border-left: 2px solid #000;
+/*   border-color: #000; */
 }
 
 textarea {

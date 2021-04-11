@@ -119,6 +119,15 @@ textarea {
 	margin-left: 22.5%;
 }
 
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+}
+
+#data_form h2 {
+  text-align: center;
+}
+
 h1 {
   font-family: 'Montserrat', sans-serif;
   color: #FFF;

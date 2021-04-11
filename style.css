@@ -1,3 +1,19 @@
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("wp7287456.jpg");
+  min-height: 100%;
+}
+
+.menu {
+  display: none;
+}
+
 p {
    text-indent: 45px;
   font-family: "Times New Roman", Times, serif;

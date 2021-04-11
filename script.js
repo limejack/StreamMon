@@ -4,11 +4,12 @@ function clicked(){
     {
         total += x[i].value;
     }
+    window.localStorage.setItem('total',total);
 }
 var total;
 if(document.title == "Results")
 {
-    document.getElementById("total").text = total;
+    document.getElementById("total").text = window.localStorage.getItem("total");
 }
 else
 {

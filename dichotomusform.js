@@ -113,7 +113,7 @@ function chooseNextQuestion(q_name, option) {
             document.getElementById("f" + i).disabled = true;
         }
         if (option == "no-legs") {
-            alert("Crawfish);
+            alert("Crawfish");
             //Crawfish
         }
         if (option == "legs") {
@@ -132,6 +132,7 @@ function chooseNextQuestion(q_name, option) {
             //Gilled Snail
         }
         if (option == "legs") {
+            alert("Lunged Snail");
             //Lunged Snail
         }
         document.getElementById("f15").disabled = false;

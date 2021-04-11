@@ -5,4 +5,4 @@ function clicked(){
         alert(x[i].value);
     }
 }
-document.getElementById("main_form").onsubmit = clicked();
+document.getElementById("main_form").onsubmit = clicked;

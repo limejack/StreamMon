@@ -1,5 +1,5 @@
 function clicked(){
-    var x = document.getElementsById("total");
+    var x = document.getElementsByClassName("total");
     for(var i = 0; i < x.length(); i ++)
     {
         alert(x[i].value());

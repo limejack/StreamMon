@@ -19,6 +19,7 @@ function reset() {
     document.getElementById("f1").disabled = false;
     document.getElementById("f2").disabled = false;
 }
+reset();
 document.getElementById("f1").disabled = false;
 document.getElementById("f2").disabled = false;
 document.getElementById("f1").parentNode.style.borderBottom = "2px solid #90C290";

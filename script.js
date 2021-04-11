@@ -9,7 +9,7 @@ function clicked(){
 var total;
 if(document.title == "Results")
 {
-    alert(document.getElementById("total").firstChild)
+    alert(document.getElementById("total").firstChild.text)
     document.getElementById("total").firstChild.innerHTML = window.localStorage.getItem("total");
 }
 else

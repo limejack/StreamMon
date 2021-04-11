@@ -1,10 +1,3 @@
-<!DOCTYPE html>
-<html>
-<title>Stream Data Collection</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
-<link rel="stylesheet" href="style.css">
 <body>
 
 <!-- Links (sit on top) -->
@@ -120,93 +113,57 @@
 </form> -->
 
 <!-- <div class="w3-top">
+
+
+<div class="w3-top">
   <div class="w3-row w3-padding w3-black">
     <div class="w3-col s2">
       <a href="#" class="w3-button w3-block w3-black">HOME</a>
-    </div>
-    <div class="w3-col s2">
-      <a href="#about" class="w3-button w3-block w3-black">ABOUT</a>
-    </div>
-    <div class="w3-col s2">
-      <a href="#data" class="w3-button w3-block w3-black">DATA</a>
-    </div>
-    <div class="w3-col s2">
-      <a href="#forms" class="w3-button w3-block w3-black">FORMS</a>
-    </div>
-    <div class="w3-col s2">
-      <a href="#contactus" class="w3-button w3-block w3-black">CONTACT US</a>
-    </div>
+@@ -137,8 +31,8 @@
   </div>
 </div>
 
 Header with image -->
 <!-- <header class="bgimg w3-display-container w3-grayscale-min" id="home">
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
   <div class="w3-display-middle w3-center">
     <span class="w3-text-white" style="font-size:90px">Stream Data<br>Collection</span>
   </div>
-  <div class="w3-display-bottomright w3-center w3-padding-large">
-    <span class="w3-text-white">Alex Whitlock, Teddy Winston,<br>and Zoe Winston -- HackTJ 2021</span>
+@@ -147,20 +41,20 @@
   </div>
 </header>
 
 Add a background color and large text to the whole page -->
 <!-- <div class="w3-sand w3-grayscale w3-large"> -->
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
 
 <!-- About Container -->
 <!-- <div class="w3-container" id="about">
+<div class="w3-container" id="about">
   <div class="w3-content" style="max-width:700px">
     <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT STREAM MONITORING</span></h5>
     <p> Stream monitors serve an incredibly important role in our community. They monitor the water quality of our streams so we can identify unhealthy streams which can be unsafe for swimming, fishing, playing in, and drinking. This information is gathered from volunteers throughout the country. Monitors collect and identify benthic macroinvertebrates (such as crawfish, leeches, dragonfly larvae, etc.) and, from that information, can service a stream health score on a scale of 1-12. In Virginia, <a href="https://vasos.org/" target="_blank">Virginia Save Our Streams</a> is a program run by the <a href="https://www.iwla.org/" target="_blank">Izaak Walton League of America</a> which is a national level conservation organization and works to improve water quality across the country.</p>
     <p>This website aims to facilitate the process by running the necessary calculations for finding the stream health score based on information inputted by the user about the number of each type of benthic macroinvertebrate found.</p>
   </div>
 </div> -->
+</div>
 
 <!-- Menu Container -->
 <!-- <div class="w3-container" id="data">
+<div class="w3-container" id="data">
   <div class="w3-content" style="max-width:700px">
- 
+
     <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">INPUT DATA</span></h5>
-  
-    <div class="w3-row w3-center w3-card w3-padding">
-      <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
-        <div class="w3-col s6 tablink">Muddy Bottom</div>
-      </a>
-      <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
-        <div class="w3-col s6 tablink">Rocky Bottom</div>
-      </a>
-    </div>
-
-    <div id="Eat" class="w3-container menu w3-padding-48 w3-card">
-      <form>
-      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name of Stream" required name="Name"></p>
-      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Site ID" required name="Site-Id"></p>
-      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="First and Last Name" required name="NameOfYou"></p>
-      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name of Certified Moniters" required name="NameOfMoniters"></p>
-      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Number of Participants" required name="Number"></p>
-      <p><input class="w3-input w3-padding-16 w3-border hello" type="text" placeholder="County" required name="County"><select class="w3-input w3-padding-16 w3-border" name="state"><option value="">Select a state...</option><option value="AL">Alabama</option><option value="AK">Alaska</option><option value="AS">American Samoa</option><option value="AZ">Arizona</option><option value="AR">Arkansas</option><option value="CA">California</option><option value="CO">Colorado</option><option value="CT">Connecticut</option><option value="DE">Delaware</option><option value="DC">District of Columbia</option><option value="FL">Florida</option><option value="GA">Georgia</option><option value="GU">Guam</option><option value="HI">Hawaii</option><option value="ID">Idaho</option><option value="IL">Illinois</option><option value="IN">Indiana</option><option value="IA">Iowa</option><option value="KS">Kansas</option><option value="KY">Kentucky</option><option value="LA">Louisiana</option><option value="ME">Maine</option><option value="MD">Maryland</option><option value="MA">Massachusetts</option><option value="MI">Michigan</option><option value="MN">Minnesota</option><option value="MS">Mississippi</option><option value="MO">Missouri</option><option value="MT">Montana</option><option value="NE">Nebraska</option><option value="NV">Nevada</option><option value="NH">New Hampshire</option><option value="NJ">New Jersey</option><option value="NM">New Mexico</option><option value="NY">New York</option><option value="NC">North Carolina</option><option value="ND">North Dakota</option><option value="MP">N. Mariana Islands</option><option value="OH">Ohio</option><option value="OK">Oklahoma</option><option value="OR">Oregon</option><option value="PA">Pennsylvania</option><option value="PR">Puerto Rico</option><option value="RI">Rhode Island</option><option value="SC">South Carolina</option><option value="SD">South Dakota</option><option value="TN">Tennessee</option><option value="TX">Texas</option><option value="AA">US Armed Forces Americas</option><option value="AE">US Armed Forces Europe</option><option value="AP">US Armed Forces Pacific</option><option value="UT">Utah</option><option value="VT">Vermont</option><option value="VI">Virgin Islands</option><option value="VA">Virginia</option><option value="WA">Washington</option><option value="WV">West Virginia</option><option value="WI">Wisconsin</option><option value="WY">Wyoming</option><option value="FM">Federated States of Micronesia</option><option value="MH">Marshall Islands</option><option value="PW">Palau</option></select></p>
-      <p><input class="w3-input w3-padding-16 w3-border" type="date" placeholder="Date and time" required name="date"></p>
-      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Special requirements" name="Message"></p>
-      <p><button class="w3-button w3-black" type="submit">SEND MESSAGE</button></p>
-      </form>
-
-    </div>
-
-    <div id="Drinks" class="w3-container menu w3-padding-48 w3-card">
-      <form>
-      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name of Stream" required name="Name"></p>
-      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Site ID" required name="Site-Id"></p>
-      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="First and Last Name" required name="NameOfYou"></p>
-<p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name of Certified Moniters" required name="NameOfMoniters"></p>
-<p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Number of Participants" required name="Number"></p>
-<p><input class="w3-input w3-padding-16 w3-border hello" type="text" placeholder="County" required name="County"><select class="w3-input w3-padding-16 w3-border" name="state"><option value="">Select a state...</option><option value="AL">Alabama</option><option value="AK">Alaska</option><option value="AS">American Samoa</option><option value="AZ">Arizona</option><option value="AR">Arkansas</option><option value="CA">California</option><option value="CO">Colorado</option><option value="CT">Connecticut</option><option value="DE">Delaware</option><option value="DC">District of Columbia</option><option value="FL">Florida</option><option value="GA">Georgia</option><option value="GU">Guam</option><option value="HI">Hawaii</option><option value="ID">Idaho</option><option value="IL">Illinois</option><option value="IN">Indiana</option><option value="IA">Iowa</option><option value="KS">Kansas</option><option value="KY">Kentucky</option><option value="LA">Louisiana</option><option value="ME">Maine</option><option value="MD">Maryland</option><option value="MA">Massachusetts</option><option value="MI">Michigan</option><option value="MN">Minnesota</option><option value="MS">Mississippi</option><option value="MO">Missouri</option><option value="MT">Montana</option><option value="NE">Nebraska</option><option value="NV">Nevada</option><option value="NH">New Hampshire</option><option value="NJ">New Jersey</option><option value="NM">New Mexico</option><option value="NY">New York</option><option value="NC">North Carolina</option><option value="ND">North Dakota</option><option value="MP">N. Mariana Islands</option><option value="OH">Ohio</option><option value="OK">Oklahoma</option><option value="OR">Oregon</option><option value="PA">Pennsylvania</option><option value="PR">Puerto Rico</option><option value="RI">Rhode Island</option><option value="SC">South Carolina</option><option value="SD">South Dakota</option><option value="TN">Tennessee</option><option value="TX">Texas</option><option value="AA">US Armed Forces Americas</option><option value="AE">US Armed Forces Europe</option><option value="AP">US Armed Forces Pacific</option><option value="UT">Utah</option><option value="VT">Vermont</option><option value="VI">Virgin Islands</option><option value="VA">Virginia</option><option value="WA">Washington</option><option value="WV">West Virginia</option><option value="WI">Wisconsin</option><option value="WY">Wyoming</option><option value="FM">Federated States of Micronesia</option><option value="MH">Marshall Islands</option><option value="PW">Palau</option></select></p>
-      <p><input class="w3-input w3-padding-16 w3-border" type="date" placeholder="Date and time" required name="date"></p>
-      <p><button class="w3-button w3-black" type="submit">SUBMIT</button></p>
-    </form>
+@@ -203,43 +97,43 @@ <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">INPUT DATA</spa
 
     </div>
   </div>
 </div> -->
 <!-- <form>
+</div>
+<form>
   <div class="w3-content" style="max-width:700px">
     <p>Alderflys, Fishflies, and Hellgramites<input class="" type="number" value=0 min=0></p>
     <p>Beetles<input class="" type="number" value = 0 min=0></p>
@@ -228,10 +185,32 @@ Add a background color and large text to the whole page -->
     <p>True Flies<input class="" type="number" value=0 min=0></p>          
     <p>Worms<input class="" type="number" value=0 min=0></p>
     <p>Other benthic macroinvertebrates<input class="" type="number" value=0 min=0></p>
+    <p>Alderflys, Fishflies, and Hellgramites <input class="total" type="number" value=0 min=0></p>
+    <p>Beetles <input class="total Metric4" type="number" value = 0 min=0></p>
+    <p>Black Flies <input class="total Metric5" type="number" value=0 min=0></p>
+    <p>Caddisflies <input class="total " type="number" value=0 min=0></p>
+    <p>Clam <input class="" type="number" value=0 min=0></p>
+    <p>Common Netspinning <input class="" type="number" value=0 min=0></p>
+    <p>Crayfish <input class="" type="number" value=0 min=0></p>
+    <p>Dragonflies and Damselflies <input class="" type="number" value=0 min=0></p>
+    <p>Flat Worms <input class="" type="number" value=0 min=0></p>
+    <p>Gilled Snails <input class="" type="number" value=0 min=0></p>
+    <p>Leeches <input class="" type="number" value=0 min=0></p>
+    <p>Lunged Snails <input class="" type="number" value=0 min=0></p>
+    <p>Mayflies <input class="" type="number" value=0 min=0></p>
+    <p>Midges <input class="" type="number" value=0 min=0></p>
+    <p>Scuds <input class="" type="number" value=0 min=0></p>
+    <p>Sowbugs <input class="" type="number" value=0 min=0></p>
+    <p>Stoneflies <input class="" type="number" value=0 min=0></p>
+    <p>True Flies <input class="" type="number" value=0 min=0></p>          
+    <p>Worms <input class="" type="number" value=0 min=0></p>
+    <p>Other benthic macroinvertebrates <input class="" type="number" value=0 min=0></p>
   </div>
 </form> -->
+</form>
 <!-- Forms Container -->
 <!-- <div class="w3-container" id="forms" style="padding-bottom:32px;">
+<div class="w3-container" id="forms" style="padding-bottom:32px;">
   <div class="w3-content" style="max-width:700px">
     <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">PRINTABLE FORMS</span></h5>
     <iframe src="https://drive.google.com/file/d/1ENBAbC2poo33PPdrDMHTMoXBQuBjK_I1/preview" width="640" height="480"></iframe>
@@ -239,28 +218,30 @@ Add a background color and large text to the whole page -->
     <p>Forms from <a href="https://vasos.org/" target="_blank">vasos.org</a>.</p>
   </div>
 </div> -->
+</div>
 
 <!-- Contact Us Container -->
 <!-- <div class="w3-container" id="contactus">
+<div class="w3-container" id="contactus">
   <div class="w3-content" style="max-width:700px">
     <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">CONTACT US</span></h5>
     <p><strong>Questions:</strong> Contact us if you encounter any problems or have questions!</p>
-          <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
-      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Subject" required name="People"></p>
-      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Question" required name="Message"></p>
+@@ -249,14 +143,18 @@ <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">CONTACT US</spa
       <p><button class="w3-button w3-black" type="submit">SEND MESSAGE</button></p>
-   
+
   </div>
 </div> -->
+</div>
 
+<!-- End page content -->
 </div>
 
 <!-- Footer -->
 <footer class="w3-center w3-light-grey w3-padding-48 w3-large">
   <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3schools.com</a></p>
 </footer>
+<link
+<!-- <script src="formscript.js"></script> -->
+
 </body>
 </html>
-
-
-
